@@ -34,7 +34,7 @@ $(function(){
     current : { scroll : 0, link : null },
     change : {
       scroll : function(value){
-	$('body').scrollTop(value * 10);
+	$('body').scrollTop(value * 20);
       },
       link : function(value){
         var css = {};
